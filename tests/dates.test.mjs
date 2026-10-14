@@ -45,3 +45,7 @@ test("overview range uses Russian genitive month", () => {
     "12–18 августа 2026"
   );
 });
+
+test("a trimmed one-day overview prints one date", () => {
+  assert.equal(formatOverviewRange(["2026-09-18"]), "18 сентября 2026");
+});

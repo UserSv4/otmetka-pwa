@@ -1,0 +1,20 @@
+{
+  "trimmedEnds": true,
+  "middleGaps": true,
+  "singleDay": true,
+  "emptyRange": true,
+  "pagination": true,
+  "actualDates": [
+    "2026-09-21"
+  ],
+  "dataUnchanged": true,
+  "focusedTests": {
+    "passed": 11,
+    "failed": 0,
+    "command": "node --test tests/overview.test.mjs tests/dates.test.mjs"
+  },
+  "visuallyInspected": [
+    "trimmed-with-middle-gaps.png",
+    "actual-shared-overview.png"
+  ]
+}

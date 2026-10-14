@@ -247,6 +247,31 @@ export function fillMissingFromDefaults(state, dateKey, timestamp = Date.now()) 
   return filled;
 }
 
+export function resetDay(state, dateKey, { empty = false, timestamp = Date.now() } = {}) {
+  if (!isDateKey(dateKey)) throw new TypeError(`Invalid date: ${dateKey}`);
+  const snapshot = {
+    dateKey,
+    attendance: state.attendance[dateKey] ? clone(state.attendance[dateKey]) : null,
+    initialized: state.initializedDays[dateKey] ? clone(state.initializedDays[dateKey]) : null
+  };
+
+  state.attendance[dateKey] = {};
+  // Keep the day initialized so an intentionally empty day stays empty after reopening.
+  initializeDay(state, dateKey, { timestamp });
+  if (!empty) fillMissingFromDefaults(state, dateKey, timestamp);
+  return snapshot;
+}
+
+export function restoreDaySnapshot(state, snapshot, timestamp = Date.now()) {
+  const { dateKey, attendance, initialized } = snapshot;
+  if (!isDateKey(dateKey)) throw new TypeError(`Invalid date: ${dateKey}`);
+  if (attendance) state.attendance[dateKey] = clone(attendance);
+  else delete state.attendance[dateKey];
+  if (initialized) state.initializedDays[dateKey] = clone(initialized);
+  else delete state.initializedDays[dateKey];
+  state.updatedAt = timestamp;
+}
+
 export function getActivePeople(state) {
   return state.people
     .filter((person) => person.active)
@@ -264,7 +289,7 @@ export function getEntry(state, dateKey, personId) {
 }
 
 export function getDailyCounts(state, dateKey) {
-  const counts = { present: 0, sick: 0, drunk: 0, absent: 0, missing: 0, total: 0 };
+  const counts = { ...Object.fromEntries(STATUS_KEYS.map((status) => [status, 0])), missing: 0, total: 0 };
   const day = state.attendance[dateKey] ?? {};
 
   for (const person of getActivePeople(state)) {
@@ -276,16 +301,8 @@ export function getDailyCounts(state, dateKey) {
   return counts;
 }
 
-export function getOverviewPeople(state, dateKeys) {
-  const dateSet = new Set(dateKeys);
-  return state.people
-    .filter((person) => {
-      if (person.active) return true;
-      return Object.entries(state.attendance).some(([dateKey, day]) =>
-        dateSet.has(dateKey) && Boolean(day[person.id])
-      );
-    })
-    .sort((left, right) => left.sortOrder - right.sortOrder);
+export function getOverviewPeople(state) {
+  return getActivePeople(state);
 }
 
 export function renamePerson(state, personId, rawName, timestamp = Date.now()) {

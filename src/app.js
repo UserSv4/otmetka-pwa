@@ -19,13 +19,15 @@ import {
   movePerson,
   normalizeState,
   renamePerson,
+  resetDay,
   restoreBackupPayload,
   restoreBulkSnapshot,
+  restoreDaySnapshot,
   restorePerson,
   setAllActivePeopleStatus,
   setPersonStatus
 } from "./model.js";
-import { generateOverviewFiles } from "./overview.js";
+import { generateOverviewFiles, getOverviewDates } from "./overview.js";
 import { loadState, requestPersistentStorage, saveState } from "./storage.js";
 
 const elements = Object.fromEntries([
@@ -44,6 +46,11 @@ const elements = Object.fromEntries([
   "quickActions",
   "markAllPresentButton",
   "fillDefaultsButton",
+  "dayActionsButton",
+  "dayActionsDialog",
+  "dayActionsTitle",
+  "clearDayButton",
+  "resetDayButton",
   "emptyState",
   "emptyAddButton",
   "attendanceList",
@@ -217,7 +224,8 @@ function renderSummary() {
     ["present", `Здесь ${counts.present}`],
     ["sick", `Болеют ${counts.sick}`],
     ["drunk", `Забухали ${counts.drunk}`],
-    ["absent", `Нету ${counts.absent}`]
+    ["absent", `Нету ${counts.absent}`],
+    ["half", `Пол смены ${counts.half}`]
   ];
   if (counts.missing > 0) chips.unshift(["missing", `Не отмечено ${counts.missing}`]);
 
@@ -231,6 +239,8 @@ function renderSummary() {
   elements.dailySummary.replaceChildren(fragment);
   elements.markAllPresentButton.disabled = counts.total === 0;
   elements.fillDefaultsButton.disabled = counts.total === 0 || counts.missing === 0;
+  elements.dayActionsButton.hidden = selectedDate >= todayKey;
+  elements.dayActionsButton.disabled = counts.total === 0 && Object.keys(state.attendance[selectedDate] ?? {}).length === 0;
 }
 
 function createStatusButton(person, status, selectedStatus) {
@@ -294,10 +304,12 @@ function renderAttendanceList(changedPersonId = null) {
 
 function updateShareButton() {
   const hasOverviewPeople = getOverviewPeople(state, dateWindow).length > 0;
+  const hasOverviewDates = getOverviewDates(state, dateWindow).length > 0;
   const isReady = overviewFiles.length > 0 && overviewReadyRevision === stateRevision;
-  elements.shareButton.disabled = !hasOverviewPeople || !isReady;
+  elements.shareButton.disabled = !hasOverviewPeople || !hasOverviewDates || !isReady;
 
   if (!hasOverviewPeople) elements.shareButtonLabel.textContent = "Сначала добавьте людей";
+  else if (!hasOverviewDates) elements.shareButtonLabel.textContent = "Нет отметок за эти дни";
   else if (!isReady) elements.shareButtonLabel.textContent = "Готовим сводку…";
   else elements.shareButtonLabel.textContent = "Поделиться сводкой";
 }
@@ -310,7 +322,7 @@ function renderMain(changedPersonId = null) {
   elements.selectedDateTitle.textContent = selectedCopy.title;
   elements.todayButton.hidden = selectedDate === todayKey;
   elements.emptyState.hidden = people.length > 0;
-  elements.dailyPanel.hidden = people.length === 0;
+  elements.dailyPanel.hidden = people.length === 0 && selectedDate === todayKey;
   elements.addInlineButton.hidden = people.length === 0;
   renderDateStrip();
   renderSummary();
@@ -411,7 +423,7 @@ function scheduleOverview() {
   overviewFiles = [];
   updateShareButton();
 
-  if (getOverviewPeople(state, dateWindow).length === 0) return;
+  if (getOverviewDates(state, dateWindow).length === 0) return;
 
   overviewTimer = window.setTimeout(async () => {
     const targetRevision = stateRevision;
@@ -470,6 +482,34 @@ function handleFillDefaults() {
   if (!filled) return;
   commitState();
   showToast(`Заполнено по привычке: ${filled}`);
+}
+
+function showDayActions() {
+  if (selectedDate >= toDateKey()) return;
+  clearToast();
+  elements.dayActionsDialog.dataset.date = selectedDate;
+  elements.dayActionsTitle.textContent = getSelectedDateCopy(selectedDate, todayKey).title;
+  elements.clearDayButton.disabled = Object.keys(state.attendance[selectedDate] ?? {}).length === 0;
+  elements.resetDayButton.disabled = getActivePeople(state).length === 0;
+  openDialog(elements.dayActionsDialog);
+}
+
+function handleResetDay(empty) {
+  const dateKey = elements.dayActionsDialog.dataset.date;
+  if (!elements.dayActionsDialog.open || !dateKey || dateKey >= toDateKey()) return;
+  closeDialog(elements.dayActionsDialog);
+  const snapshot = resetDay(state, dateKey, { empty });
+  commitState();
+  const dateTitle = getSelectedDateCopy(dateKey, todayKey).title;
+  showToast(`${dateTitle}: ${empty ? "отметки очищены" : "заполнено по привычке"}`, {
+    actionLabel: "Отменить",
+    duration: 12000,
+    onAction: () => {
+      restoreDaySnapshot(state, snapshot);
+      commitState();
+      showToast(`${dateTitle}: отметки восстановлены`);
+    }
+  });
 }
 
 function showRosterDialog() {
@@ -616,7 +656,7 @@ function showOverviewFallback(message) {
     image.src = previewObjectUrls[index];
     image.alt = overviewFiles.length > 1
       ? `Сводка посещаемости, страница ${index + 1} из ${overviewFiles.length}`
-      : "Сводка посещаемости за 7 дней";
+      : "Сводка посещаемости";
     figure.append(image);
     if (overviewFiles.length > 1) {
       const caption = document.createElement("figcaption");
@@ -788,6 +828,9 @@ function bindEvents() {
   elements.addPeopleForm.addEventListener("submit", handleAddPeople);
   elements.markAllPresentButton.addEventListener("click", handleMarkAllPresent);
   elements.fillDefaultsButton.addEventListener("click", handleFillDefaults);
+  elements.dayActionsButton.addEventListener("click", showDayActions);
+  elements.clearDayButton.addEventListener("click", () => handleResetDay(true));
+  elements.resetDayButton.addEventListener("click", () => handleResetDay(false));
   elements.shareButton.addEventListener("click", handleShareOverview);
   elements.todayButton.addEventListener("click", () => selectDate(todayKey));
   elements.installHelpButton.addEventListener("click", () => openDialog(elements.installDialog));

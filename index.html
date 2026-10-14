@@ -76,6 +76,7 @@
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.34 5.66M20 4v7h-7" /></svg>
               По привычке
             </button>
+            <button class="quick-button" id="dayActionsButton" type="button" hidden>Сбросить день</button>
           </div>
         </section>
 
@@ -107,6 +108,30 @@
         </button>
       </footer>
     </div>
+
+    <dialog class="sheet-dialog" id="dayActionsDialog" aria-labelledby="dayActionsTitle">
+      <div class="sheet-handle" aria-hidden="true"></div>
+      <header class="sheet-header">
+        <div>
+          <p class="section-kicker">СБРОС ДНЯ</p>
+          <h2 id="dayActionsTitle"></h2>
+        </div>
+        <button class="icon-button" data-close-dialog="dayActionsDialog" type="button" aria-label="Закрыть">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" /></svg>
+        </button>
+      </header>
+      <div class="sheet-body day-actions">
+        <button class="secondary-button day-action-button day-action-clear" id="clearDayButton" type="button">
+          <strong>Очистить день</strong>
+          <span>Убрать все отметки. В сводке останутся «—».</span>
+        </button>
+        <button class="secondary-button day-action-button" id="resetDayButton" type="button">
+          <strong>Заполнить по привычке</strong>
+          <span>Заменить отметки текущими статусами по привычке.</span>
+        </button>
+        <button class="secondary-button" data-close-dialog="dayActionsDialog" type="button" autofocus>Отмена</button>
+      </div>
+    </dialog>
 
     <dialog class="sheet-dialog roster-dialog" id="rosterDialog" aria-labelledby="rosterTitle">
       <div class="sheet-handle" aria-hidden="true"></div>

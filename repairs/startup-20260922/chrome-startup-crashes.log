@@ -1,0 +1,1162 @@
+--------- beginning of crash
+02-03 06:58:22.917  1234  1234 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 1234 (init), pid 1234 (init)
+02-03 06:58:22.929  1234  1234 F libc    : Crash due to signal: crash_dump helper failed to exec, or was killed
+09-21 23:18:52.984  6837  6837 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 6837 (init), pid 6837 (init)
+09-21 23:18:53.026  6837  6837 F libc    : Crash due to signal: crash_dump helper failed to exec, or was killed
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: FATAL EXCEPTION: main
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: Process: com.oceanwing.soundcore:tmpIService:com.ijm.detect.drisk.IsolatedService, PID: 14823
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: java.lang.UnsatisfiedLinkError: No implementation found for java.lang.ClassLoader s.h.e.l.l.N.al(java.lang.ClassLoader, android.content.pm.ApplicationInfo, java.lang.String, java.lang.String) (tried Java_s_h_e_l_l_N_al and Java_s_h_e_l_l_N_al__Ljava_lang_ClassLoader_2Landroid_content_pm_ApplicationInfo_2Ljava_lang_String_2Ljava_lang_String_2) - is the library loaded, e.g. System.loadLibrary?
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at s.h.e.l.l.N.al(Native Method)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at s.h.e.l.l.A.instantiateApplication(dex-id-616724f699c7fa9b8bd4dc1ec2dbb7d72f902021:45)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1367)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1566)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1479)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8574)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2792)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:298)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:408)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9952)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+09-21 23:19:05.864 14823 14823 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: FATAL EXCEPTION: main
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: Process: com.oceanwing.soundcore:tmpIService:com.ijm.detect.drisk.IsolatedService, PID: 23882
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: java.lang.UnsatisfiedLinkError: No implementation found for java.lang.ClassLoader s.h.e.l.l.N.al(java.lang.ClassLoader, android.content.pm.ApplicationInfo, java.lang.String, java.lang.String) (tried Java_s_h_e_l_l_N_al and Java_s_h_e_l_l_N_al__Ljava_lang_ClassLoader_2Landroid_content_pm_ApplicationInfo_2Ljava_lang_String_2Ljava_lang_String_2) - is the library loaded, e.g. System.loadLibrary?
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at s.h.e.l.l.N.al(Native Method)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at s.h.e.l.l.A.instantiateApplication(dex-id-616724f699c7fa9b8bd4dc1ec2dbb7d72f902021:45)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1367)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1566)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1479)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8574)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2792)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:298)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:408)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9952)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+09-21 23:19:36.711 23882 23882 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+09-21 23:29:05.934 16597 16597 E AndroidRuntime: FATAL EXCEPTION: main
+09-21 23:29:05.934 16597 16597 E AndroidRuntime: PID: 16597
+09-21 23:29:05.934 16597 16597 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lkotlin/jvm/internal/Intrinsics;
+09-21 23:29:05.934 16597 16597 E AndroidRuntime: 	at AndroidCellInfoRead.main(AndroidCellInfoRead.kt:4)
+09-21 23:29:05.934 16597 16597 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+09-21 23:29:05.934 16597 16597 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:391)
+09-21 23:29:05.934 16597 16597 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: kotlin.jvm.internal.Intrinsics
+09-21 23:29:05.934 16597 16597 E AndroidRuntime: 	... 3 more
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: Couldn't report crash. Here's the crash:
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lkotlin/jvm/internal/Intrinsics;
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at AndroidCellInfoRead.main(AndroidCellInfoRead.kt:4)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:391)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: kotlin.jvm.internal.Intrinsics
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	... 3 more
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: Error reporting crash. Here's the error:
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: java.lang.RuntimeException: Bad file descriptor
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.os.BinderProxy.transact(BinderProxy.java:685)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.os.IServiceManager$Stub$Proxy.checkService2(IServiceManager.java:557)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.os.ServiceManagerProxy.checkService2(ServiceManagerNative.java:81)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.os.ServiceManagerProxy.getService2(ServiceManagerNative.java:70)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:430)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.os.ServiceManager.getService(ServiceManager.java:175)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.app.ActivityManager$4.create(ActivityManager.java:5807)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.app.ActivityManager$4.create(ActivityManager.java:5804)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.util.Singleton.get(Singleton.java:44)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at android.app.ActivityManager.getService(ActivityManager.java:5795)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:185)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1098)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1093)
+09-21 23:29:05.938 16597 16597 E AndroidRuntime: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:3387)
+09-21 23:29:34.841 18145 18145 E AndroidRuntime: FATAL EXCEPTION: main
+09-21 23:29:34.841 18145 18145 E AndroidRuntime: PID: 18145
+09-21 23:29:34.841 18145 18145 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lkotlin/jvm/internal/Intrinsics;
+09-21 23:29:34.841 18145 18145 E AndroidRuntime: 	at AndroidCellInfoRead.main(AndroidCellInfoRead.kt:4)
+09-21 23:29:34.841 18145 18145 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+09-21 23:29:34.841 18145 18145 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:391)
+09-21 23:29:34.841 18145 18145 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: kotlin.jvm.internal.Intrinsics
+09-21 23:29:34.841 18145 18145 E AndroidRuntime: 	... 3 more
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: Couldn't report crash. Here's the crash:
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lkotlin/jvm/internal/Intrinsics;
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at AndroidCellInfoRead.main(AndroidCellInfoRead.kt:4)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:391)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: kotlin.jvm.internal.Intrinsics
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	... 3 more
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: Error reporting crash. Here's the error:
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: java.lang.RuntimeException: Bad file descriptor
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.os.BinderProxy.transact(BinderProxy.java:685)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.os.IServiceManager$Stub$Proxy.checkService2(IServiceManager.java:557)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.os.ServiceManagerProxy.checkService2(ServiceManagerNative.java:81)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.os.ServiceManagerProxy.getService2(ServiceManagerNative.java:70)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:430)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.os.ServiceManager.getService(ServiceManager.java:175)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.app.ActivityManager$4.create(ActivityManager.java:5807)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.app.ActivityManager$4.create(ActivityManager.java:5804)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.util.Singleton.get(Singleton.java:44)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at android.app.ActivityManager.getService(ActivityManager.java:5795)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:185)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1098)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1093)
+09-21 23:29:34.844 18145 18145 E AndroidRuntime: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:3387)
+09-22 00:00:28.319 28071 28071 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 00:00:28.916 28071 28071 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90051, not key_process
+09-22 00:00:28.916 28071 28071 F DEBUG   : keyProcess: 0
+09-22 00:00:28.916 28071 28071 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 00:00:28.916 28071 28071 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 00:00:28.916 28071 28071 F DEBUG   : Revision: '0'
+09-22 00:00:28.916 28071 28071 F DEBUG   : ABI: 'arm64'
+09-22 00:00:28.916 28071 28071 F DEBUG   : Timestamp: 2026-09-22 00:00:28.330106236+0300
+09-22 00:00:28.916 28071 28071 F DEBUG   : Process uptime: 1s
+09-22 00:00:28.916 28071 28071 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 00:00:28.916 28071 28071 F DEBUG   : pid: 28071, tid: 28071, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 00:00:28.916 28071 28071 F DEBUG   : uid: 90051
+09-22 00:00:28.916 28071 28071 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 00:00:28.916 28071 28071 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 00:00:28.916 28071 28071 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 00:00:28.916 28071 28071 F DEBUG   :     x0  0000000000015fc3  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 00:00:28.916 28071 28071 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  0000000000000029  x7  0000000000000000
+09-22 00:00:28.916 28071 28071 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 00:00:28.916 28071 28071 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 00:00:28.916 28071 28071 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 00:00:28.916 28071 28071 F DEBUG   :     x20 000000759e419280  x21 0000000000015fc3  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 00:00:28.916 28071 28071 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 00:00:28.916 28071 28071 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 00:00:28.916 28071 28071 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 00:00:28.916 28071 28071 F DEBUG   : 31 total frames
+09-22 00:00:28.916 28071 28071 F DEBUG   : backtrace:
+09-22 00:00:28.916 28071 28071 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 00:00:28.916 28071 28071 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 00:00:28.916 28071 28071 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 00:00:28.916 28071 28071 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 00:00:28.916 28071 28071 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 00:00:28.916 28071 28071 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 00:00:28.916 28071 28071 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 00:01:47.793 32610 32610 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 00:01:48.196 32610 32610 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90052, not key_process
+09-22 00:01:48.196 32610 32610 F DEBUG   : keyProcess: 0
+09-22 00:01:48.196 32610 32610 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 00:01:48.196 32610 32610 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 00:01:48.196 32610 32610 F DEBUG   : Revision: '0'
+09-22 00:01:48.196 32610 32610 F DEBUG   : ABI: 'arm64'
+09-22 00:01:48.196 32610 32610 F DEBUG   : Timestamp: 2026-09-22 00:01:47.803440736+0300
+09-22 00:01:48.196 32610 32610 F DEBUG   : Process uptime: 1s
+09-22 00:01:48.196 32610 32610 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 00:01:48.196 32610 32610 F DEBUG   : pid: 32610, tid: 32610, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 00:01:48.196 32610 32610 F DEBUG   : uid: 90052
+09-22 00:01:48.197 32610 32610 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 00:01:48.197 32610 32610 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 00:01:48.197 32610 32610 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 00:01:48.197 32610 32610 F DEBUG   :     x0  0000000000015fc4  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 00:01:48.197 32610 32610 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  0000000000000098  x7  0000000000000000
+09-22 00:01:48.197 32610 32610 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 00:01:48.197 32610 32610 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 00:01:48.197 32610 32610 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 00:01:48.197 32610 32610 F DEBUG   :     x20 000000759e419280  x21 0000000000015fc4  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 00:01:48.197 32610 32610 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 00:01:48.197 32610 32610 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 00:01:48.197 32610 32610 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 00:01:48.197 32610 32610 F DEBUG   : 31 total frames
+09-22 00:01:48.197 32610 32610 F DEBUG   : backtrace:
+09-22 00:01:48.197 32610 32610 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 00:01:48.197 32610 32610 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 00:01:48.197 32610 32610 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 00:01:48.197 32610 32610 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 00:01:48.197 32610 32610 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 00:01:48.197 32610 32610 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 00:01:48.197 32610 32610 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 00:03:04.894  7818  7818 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 00:03:05.670  7818  7818 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90053, not key_process
+09-22 00:03:05.670  7818  7818 F DEBUG   : keyProcess: 0
+09-22 00:03:05.670  7818  7818 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 00:03:05.670  7818  7818 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 00:03:05.670  7818  7818 F DEBUG   : Revision: '0'
+09-22 00:03:05.670  7818  7818 F DEBUG   : ABI: 'arm64'
+09-22 00:03:05.670  7818  7818 F DEBUG   : Timestamp: 2026-09-22 00:03:04.909155811+0300
+09-22 00:03:05.670  7818  7818 F DEBUG   : Process uptime: 1s
+09-22 00:03:05.670  7818  7818 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 00:03:05.670  7818  7818 F DEBUG   : pid: 7818, tid: 7818, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 00:03:05.670  7818  7818 F DEBUG   : uid: 90053
+09-22 00:03:05.670  7818  7818 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 00:03:05.670  7818  7818 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 00:03:05.670  7818  7818 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 00:03:05.670  7818  7818 F DEBUG   :     x0  0000000000015fc5  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 00:03:05.670  7818  7818 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  00000000000000c4  x7  0000000000000000
+09-22 00:03:05.670  7818  7818 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 00:03:05.670  7818  7818 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 00:03:05.670  7818  7818 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 00:03:05.670  7818  7818 F DEBUG   :     x20 000000759e419280  x21 0000000000015fc5  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 00:03:05.670  7818  7818 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 00:03:05.670  7818  7818 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 00:03:05.670  7818  7818 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 00:03:05.670  7818  7818 F DEBUG   : 31 total frames
+09-22 00:03:05.670  7818  7818 F DEBUG   : backtrace:
+09-22 00:03:05.670  7818  7818 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 00:03:05.670  7818  7818 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 00:03:05.670  7818  7818 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 00:03:05.670  7818  7818 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 00:03:05.670  7818  7818 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 00:03:05.670  7818  7818 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 00:03:05.670  7818  7818 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 00:21:56.741 25448 25486 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xd850bc866728ccbc in tid 25486 (MediaMetadataSe), pid 25448 (metadataservice)
+09-22 00:21:57.280 25497 25497 F DEBUG   : Process name is com.google.android.apps.photos:mediametadataservice, uid is 10191, not key_process
+09-22 00:21:57.280 25497 25497 F DEBUG   : keyProcess: 0
+09-22 00:21:57.280 25497 25497 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 00:21:57.280 25497 25497 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 00:21:57.280 25497 25497 F DEBUG   : Revision: '0'
+09-22 00:21:57.280 25497 25497 F DEBUG   : ABI: 'arm64'
+09-22 00:21:57.280 25497 25497 F DEBUG   : Timestamp: 2026-09-22 00:21:56.855295692+0300
+09-22 00:21:57.280 25497 25497 F DEBUG   : Process uptime: 1s
+09-22 00:21:57.280 25497 25497 F DEBUG   : Cmdline: com.google.android.apps.photos:mediametadataservice
+09-22 00:21:57.280 25497 25497 F DEBUG   : pid: 25448, tid: 25486, name: MediaMetadataSe  >>> com.google.android.apps.photos:mediametadataservice <<<
+09-22 00:21:57.280 25497 25497 F DEBUG   : uid: 10191
+09-22 00:21:57.280 25497 25497 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 00:21:57.280 25497 25497 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 00:21:57.280 25497 25497 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xd850bc866728ccbc
+09-22 00:21:57.280 25497 25497 F DEBUG   :     x0  0000000000000000  x1  0000000000000000  x2  00000075db55a068  x3  0000000000000002
+09-22 00:21:57.280 25497 25497 F DEBUG   :     x4  6e69743e00000000  x5  000000003e74696e  x6  000000003e74696e  x7  00000074bd6edba6
+09-22 00:21:57.280 25497 25497 F DEBUG   :     x8  00000074b0c3ad70  x9  d850bc866728cc2c  x10 0000000000000005  x11 00000074bd019360
+09-22 00:21:57.280 25497 25497 F DEBUG   :     x12 0000000000000056  x13 0000000070f2b3b0  x14 00000074b0c3b800  x15 0000000000080100
+09-22 00:21:57.280 25497 25497 F DEBUG   :     x16 000000767c8fcc30  x17 000000767cce60f8  x18 00000074b0588000  x19 b4000075a93f8638
+09-22 00:21:57.280 25497 25497 F DEBUG   :     x20 00000074b0c3b800  x21 b4000075a93f8600  x22 00000074b0c3b800  x23 0000000000000000
+09-22 00:21:57.280 25497 25497 F DEBUG   :     x24 0000000000000000  x25 000000007277df20  x26 b4000075a926f270  x27 b40000759e6bafc0
+09-22 00:21:57.280 25497 25497 F DEBUG   :     x28 0000000000000000  x29 00000074b0c3ad80
+09-22 00:21:57.280 25497 25497 F DEBUG   :     lr  000000767c8d43d4  sp  00000074b0c3ad50  pc  000000767c8ea050  pst 0000000060001000
+09-22 00:21:57.280 25497 25497 F DEBUG   : 17 total frames
+09-22 00:21:57.280 25497 25497 F DEBUG   : backtrace:
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #00 pc 000000000009b050  /system/lib64/libmedia.so (BuildId: 969bfa1ac043e6f1d5981550fe3277e7)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #01 pc 00000000000853d0  /system/lib64/libmedia.so (android::MediaMetadataRetriever::MediaMetadataRetriever()+84) (BuildId: 969bfa1ac043e6f1d5981550fe3277e7)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #02 pc 000000000006789c  /system/lib64/libmedia_jni.so (android_media_MediaMetadataRetriever_native_setup(_JNIEnv*, _jobject*)+56) (BuildId: ac500412a8155b7dd16d184e062a2e1e)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #03 pc 000000000125a3b0  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+112)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #04 pc 0000000000ae16a4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.media.MediaMetadataRetriever.<init>+36)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #05 pc 000000000072b8dc  /apex/com.android.art/lib64/libart.so (nterp_helper+2124) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #06 pc 000000000022ccfc  /data/app/~~6wu6qqcpAkaRvEX0IomHog==/com.google.android.apps.photos-1Q8jwbH0TxRjcNVCehx_kw==/base.apk (offset 0x2268000) (ajpk.handleMessage+192)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #07 pc 0000000000aa5478  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Handler.dispatchMessage+152)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #08 pc 0000000000b55170  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Looper.loopOnce+1488)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #09 pc 0000000000b54b00  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Looper.loop+592)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #10 pc 0000000000b42754  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.HandlerThread.run+772)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #11 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #12 pc 00000000002a9268  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #13 pc 00000000004e1a68  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1384) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #14 pc 00000000004e14ec  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+12) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #15 pc 000000000009bc34  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+184) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 00:21:57.280 25497 25497 F DEBUG   :       #16 pc 000000000008e0f4  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 00:25:23.954 31920 31952 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x5a257948a93f09da in tid 31952 (MediaMetadataSe), pid 31920 (metadataservice)
+09-22 00:25:24.305 31963 31963 F DEBUG   : Process name is com.google.android.apps.photos:mediametadataservice, uid is 10191, not key_process
+09-22 00:25:24.305 31963 31963 F DEBUG   : keyProcess: 0
+09-22 00:25:24.305 31963 31963 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 00:25:24.305 31963 31963 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 00:25:24.305 31963 31963 F DEBUG   : Revision: '0'
+09-22 00:25:24.305 31963 31963 F DEBUG   : ABI: 'arm64'
+09-22 00:25:24.305 31963 31963 F DEBUG   : Timestamp: 2026-09-22 00:25:24.032017592+0300
+09-22 00:25:24.305 31963 31963 F DEBUG   : Process uptime: 1s
+09-22 00:25:24.305 31963 31963 F DEBUG   : Cmdline: com.google.android.apps.photos:mediametadataservice
+09-22 00:25:24.305 31963 31963 F DEBUG   : pid: 31920, tid: 31952, name: MediaMetadataSe  >>> com.google.android.apps.photos:mediametadataservice <<<
+09-22 00:25:24.305 31963 31963 F DEBUG   : uid: 10191
+09-22 00:25:24.305 31963 31963 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 00:25:24.305 31963 31963 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 00:25:24.305 31963 31963 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x5a257948a93f09da
+09-22 00:25:24.305 31963 31963 F DEBUG   :     x0  0000000000000000  x1  0000000000000000  x2  00000075db55a068  x3  0000000000000002
+09-22 00:25:24.306 31963 31963 F DEBUG   :     x4  6e69743e00000000  x5  000000003e74696e  x6  000000003e74696e  x7  00000074bde9bba6
+09-22 00:25:24.306 31963 31963 F DEBUG   :     x8  00000074b17bcd70  x9  5a257948a93f094a  x10 0000000000000005  x11 00000074bd7c7360
+09-22 00:25:24.306 31963 31963 F DEBUG   :     x12 0000000000000056  x13 0000000070f2b3b0  x14 00000074b17bd800  x15 0000000000080100
+09-22 00:25:24.306 31963 31963 F DEBUG   :     x16 000000767c8fcc30  x17 000000767cce60f8  x18 00000074b1344000  x19 b4000075a8a30578
+09-22 00:25:24.306 31963 31963 F DEBUG   :     x20 00000074b17bd800  x21 b4000075a8a30540  x22 00000074b17bd800  x23 0000000000000000
+09-22 00:25:24.306 31963 31963 F DEBUG   :     x24 0000000000000000  x25 000000007277df20  x26 b4000075a92d5270  x27 b40000759e6bafc0
+09-22 00:25:24.306 31963 31963 F DEBUG   :     x28 0000000000000000  x29 00000074b17bcd80
+09-22 00:25:24.306 31963 31963 F DEBUG   :     lr  000000767c8d43d4  sp  00000074b17bcd50  pc  000000767c8ea050  pst 0000000060001000
+09-22 00:25:24.306 31963 31963 F DEBUG   : 17 total frames
+09-22 00:25:24.306 31963 31963 F DEBUG   : backtrace:
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #00 pc 000000000009b050  /system/lib64/libmedia.so (BuildId: 969bfa1ac043e6f1d5981550fe3277e7)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #01 pc 00000000000853d0  /system/lib64/libmedia.so (android::MediaMetadataRetriever::MediaMetadataRetriever()+84) (BuildId: 969bfa1ac043e6f1d5981550fe3277e7)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #02 pc 000000000006789c  /system/lib64/libmedia_jni.so (android_media_MediaMetadataRetriever_native_setup(_JNIEnv*, _jobject*)+56) (BuildId: ac500412a8155b7dd16d184e062a2e1e)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #03 pc 000000000125a3b0  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+112)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #04 pc 0000000000ae16a4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.media.MediaMetadataRetriever.<init>+36)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #05 pc 000000000072b8dc  /apex/com.android.art/lib64/libart.so (nterp_helper+2124) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #06 pc 000000000022ccfc  /data/app/~~6wu6qqcpAkaRvEX0IomHog==/com.google.android.apps.photos-1Q8jwbH0TxRjcNVCehx_kw==/base.apk (offset 0x2268000) (ajpk.handleMessage+192)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #07 pc 0000000000aa5478  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Handler.dispatchMessage+152)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #08 pc 0000000000b55170  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Looper.loopOnce+1488)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #09 pc 0000000000b54b00  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Looper.loop+592)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #10 pc 0000000000b42754  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.HandlerThread.run+772)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #11 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #12 pc 00000000002a9268  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #13 pc 00000000004e1a68  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1384) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #14 pc 00000000004e14ec  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+12) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #15 pc 000000000009bc34  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+184) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 00:25:24.306 31963 31963 F DEBUG   :       #16 pc 000000000008e0f4  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 00:45:50.076 22288  3450 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x96d4ca3c074d91cb in tid 3450 (glide-source-th), pid 22288 (m.readdle.spark)
+09-22 00:45:50.409  3501  3501 F DEBUG   : Process name is com.readdle.spark, uid is 10313, not key_process
+09-22 00:45:50.409  3501  3501 F DEBUG   : keyProcess: 0
+09-22 00:45:50.409  3501  3501 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 00:45:50.409  3501  3501 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 00:45:50.409  3501  3501 F DEBUG   : Revision: '0'
+09-22 00:45:50.409  3501  3501 F DEBUG   : ABI: 'arm64'
+09-22 00:45:50.409  3501  3501 F DEBUG   : Timestamp: 2026-09-22 00:45:50.151933374+0300
+09-22 00:45:50.409  3501  3501 F DEBUG   : Process uptime: 1537s
+09-22 00:45:50.409  3501  3501 F DEBUG   : Cmdline: com.readdle.spark
+09-22 00:45:50.409  3501  3501 F DEBUG   : pid: 22288, tid: 3450, name: glide-source-th  >>> com.readdle.spark <<<
+09-22 00:45:50.409  3501  3501 F DEBUG   : uid: 10313
+09-22 00:45:50.409  3501  3501 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 00:45:50.409  3501  3501 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 00:45:50.409  3501  3501 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x96d4ca3c074d91cb
+09-22 00:45:50.409  3501  3501 F DEBUG   :     x0  0000000000000000  x1  0000000000000000  x2  00000075db55a068  x3  0000000000000002
+09-22 00:45:50.409  3501  3501 F DEBUG   :     x4  6e69743e00000000  x5  000000003e74696e  x6  000000003e74696e  x7  0000007542748f7d
+09-22 00:45:50.409  3501  3501 F DEBUG   :     x8  00000074918836b0  x9  96d4ca3c074d913b  x10 000000000000000b  x11 000000754207128c
+09-22 00:45:50.409  3501  3501 F DEBUG   :     x12 0000000000000056  x13 0000000070f2b3b0  x14 0000007491884800  x15 0000000000080100
+09-22 00:45:50.409  3501  3501 F DEBUG   :     x16 000000767c8fcc30  x17 000000767cce60f8  x18 0000007442108000  x19 00000074b819c7b8
+09-22 00:45:50.409  3501  3501 F DEBUG   :     x20 0000007491884800  x21 00000074b819c780  x22 0000007491884800  x23 0000000000000000
+09-22 00:45:50.409  3501  3501 F DEBUG   :     x24 0000000000000000  x25 000000007277df20  x26 00000074383c3670  x27 00000075e6b433c0
+09-22 00:45:50.409  3501  3501 F DEBUG   :     x28 0000000000000004  x29 00000074918836c0
+09-22 00:45:50.409  3501  3501 F DEBUG   :     lr  000000767c8d43d4  sp  0000007491883690  pc  000000767c8ea050  pst 0000000060001000
+09-22 00:45:50.409  3501  3501 F DEBUG   : 36 total frames
+09-22 00:45:50.409  3501  3501 F DEBUG   : backtrace:
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #00 pc 000000000009b050  /system/lib64/libmedia.so (BuildId: 969bfa1ac043e6f1d5981550fe3277e7)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #01 pc 00000000000853d0  /system/lib64/libmedia.so (android::MediaMetadataRetriever::MediaMetadataRetriever()+84) (BuildId: 969bfa1ac043e6f1d5981550fe3277e7)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #02 pc 000000000006789c  /system/lib64/libmedia_jni.so (android_media_MediaMetadataRetriever_native_setup(_JNIEnv*, _jobject*)+56) (BuildId: ac500412a8155b7dd16d184e062a2e1e)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #03 pc 000000000125a3b0  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+112)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #04 pc 0000000000ae16a4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.media.MediaMetadataRetriever.<init>+36)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #05 pc 000000000072b8dc  /apex/com.android.art/lib64/libart.so (nterp_helper+2124) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #06 pc 000000000061946e  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/base.apk (offset 0xec5000) (com.bumptech.glide.load.resource.bitmap.VideoDecoder.decode+150)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #07 pc 000000000067d7e8  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.resource.bitmap.BitmapDrawableDecoder.decode+72)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #08 pc 00000000006749e0  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodePath.decodeResourceWithList+416)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #09 pc 00000000004c5eb4  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodePath.decode+244)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #10 pc 00000000004c6ac4  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.LoadPath.load+372)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #11 pc 00000000004c559c  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodeJob.decodeFromFetcher+620)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #12 pc 0000000000672f90  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodeJob.decodeFromData+208)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #13 pc 00000000004c5818  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodeJob.decodeFromRetrievedData+408)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #14 pc 0000000000673c74  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodeJob.onDataFetcherReady+260)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #15 pc 000000000072bc18  /apex/com.android.art/lib64/libart.so (nterp_helper+2952) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #16 pc 000000000060e226  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/base.apk (offset 0xec5000) (com.bumptech.glide.load.engine.SourceGenerator.onDataReadyInternal+98)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #17 pc 000000000072b884  /apex/com.android.art/lib64/libart.so (nterp_helper+2036) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #18 pc 000000000060dd5c  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/base.apk (offset 0xec5000) (com.bumptech.glide.load.engine.SourceGenerator$1.onDataReady+20)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #19 pc 000000000067be44  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.model.ByteBufferFileLoader$ByteBufferFetcher.loadData+100)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #20 pc 000000000072b8dc  /apex/com.android.art/lib64/libart.so (nterp_helper+2124) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #21 pc 000000000060e0f8  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/base.apk (offset 0xec5000) (com.bumptech.glide.load.engine.SourceGenerator.startNext+292)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #22 pc 00000000006734f0  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodeJob.runGenerators+160)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #23 pc 00000000006737d0  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodeJob.runWrapped+288)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #24 pc 0000000000674304  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.DecodeJob.run+100)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #25 pc 00000000005a94f0  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.util.concurrent.ThreadPoolExecutor.runWorker+848)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #26 pc 00000000005adeb8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.util.concurrent.ThreadPoolExecutor$Worker.run+56)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #27 pc 000000000067b7cc  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run+220)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #28 pc 0000000000435d10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Thread.run+64)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #29 pc 000000000067b6dc  /data/app/~~yy3JRl7ndXBZavcq7MCf5Q==/com.readdle.spark-1_Y1Ws_xX9VJ0sQRN3tzeQ==/oat/arm64/base.odex (com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultPriorityThreadFactory$1.run+60)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #30 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #31 pc 00000000002a9268  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+148) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #32 pc 00000000004e1a68  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1384) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #33 pc 00000000004e14ec  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+12) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #34 pc 000000000009bc34  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+184) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 00:45:50.409  3501  3501 F DEBUG   :       #35 pc 000000000008e0f4  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 04:30:56.552 24888 24888 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 04:30:56.932 24888 24888 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90066, not key_process
+09-22 04:30:56.932 24888 24888 F DEBUG   : keyProcess: 0
+09-22 04:30:56.932 24888 24888 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 04:30:56.932 24888 24888 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 04:30:56.932 24888 24888 F DEBUG   : Revision: '0'
+09-22 04:30:56.932 24888 24888 F DEBUG   : ABI: 'arm64'
+09-22 04:30:56.932 24888 24888 F DEBUG   : Timestamp: 2026-09-22 04:30:56.561227180+0300
+09-22 04:30:56.932 24888 24888 F DEBUG   : Process uptime: 1s
+09-22 04:30:56.932 24888 24888 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 04:30:56.932 24888 24888 F DEBUG   : pid: 24888, tid: 24888, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 04:30:56.932 24888 24888 F DEBUG   : uid: 90066
+09-22 04:30:56.932 24888 24888 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 04:30:56.932 24888 24888 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 04:30:56.932 24888 24888 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 04:30:56.932 24888 24888 F DEBUG   :     x0  0000000000015fd2  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 04:30:56.932 24888 24888 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  00000000000000cd  x7  0000000000000000
+09-22 04:30:56.933 24888 24888 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 04:30:56.933 24888 24888 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 04:30:56.933 24888 24888 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 04:30:56.933 24888 24888 F DEBUG   :     x20 000000759e419280  x21 0000000000015fd2  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 04:30:56.933 24888 24888 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 04:30:56.933 24888 24888 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 04:30:56.933 24888 24888 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 04:30:56.933 24888 24888 F DEBUG   : 31 total frames
+09-22 04:30:56.933 24888 24888 F DEBUG   : backtrace:
+09-22 04:30:56.933 24888 24888 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 04:30:56.933 24888 24888 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 04:30:56.933 24888 24888 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 04:30:56.933 24888 24888 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 04:30:56.933 24888 24888 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 04:30:56.933 24888 24888 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 04:30:56.933 24888 24888 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 05:45:00.373 25941 12226 F libc    : Fatal signal 4 (SIGILL), code 1 (ILL_ILLOPC), fault addr 0x767c949a80 in tid 12226 (pool-66-thread-), pid 25941 (eplus.deskclock)
+09-22 05:45:01.359 12243 12243 F DEBUG   : Process name is com.oneplus.deskclock, uid is 10203, not key_process
+09-22 05:45:01.359 12243 12243 F DEBUG   : keyProcess: 0
+09-22 05:45:01.359 12243 12243 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 05:45:01.359 12243 12243 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 05:45:01.359 12243 12243 F DEBUG   : Revision: '0'
+09-22 05:45:01.359 12243 12243 F DEBUG   : ABI: 'arm64'
+09-22 05:45:01.359 12243 12243 F DEBUG   : Timestamp: 2026-09-22 05:45:00.630319443+0300
+09-22 05:45:01.359 12243 12243 F DEBUG   : Process uptime: 19378s
+09-22 05:45:01.359 12243 12243 F DEBUG   : Cmdline: com.oneplus.deskclock
+09-22 05:45:01.359 12243 12243 F DEBUG   : pid: 25941, tid: 12226, name: pool-66-thread-  >>> com.oneplus.deskclock <<<
+09-22 05:45:01.359 12243 12243 F DEBUG   : uid: 10203
+09-22 05:45:01.359 12243 12243 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 05:45:01.359 12243 12243 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 05:45:01.359 12243 12243 F DEBUG   : signal 4 (SIGILL), code 1 (ILL_ILLOPC), fault addr 0x000000767c949a80
+09-22 05:45:01.359 12243 12243 F DEBUG   :     x0  0000000000000002  x1  00000074b25e75f0  x2  00000074b25e75f8  x3  0000000000000001
+09-22 05:45:01.359 12243 12243 F DEBUG   :     x4  0000000000000064  x5  0000000000000001  x6  0000000000000044  x7  0000000000000000
+09-22 05:45:01.359 12243 12243 F DEBUG   :     x8  000000767c8f07d0  x9  000000767c8f06b8  x10 000000767c8f0660  x11 b4000074988dee28
+09-22 05:45:01.359 12243 12243 F DEBUG   :     x12 0000000000000001  x13 0000000000002539  x14 00000074b25e8800  x15 0000000000080100
+09-22 05:45:01.359 12243 12243 F DEBUG   :     x16 000000767c8fcc30  x17 000000767cce60f8  x18 00000074933f0000  x19 b4000074988c0800
+09-22 05:45:01.359 12243 12243 F DEBUG   :     x20 0000000000000000  x21 00000074b25e7670  x22 000000767c8ec390  x23 00000074b25e8800
+09-22 05:45:01.359 12243 12243 F DEBUG   :     x24 00000074b25e8800  x25 000000007277f420  x26 b4000074904d7670  x27 b4000075e6afe5e0
+09-22 05:45:01.359 12243 12243 F DEBUG   :     x28 000000000299a748  x29 00000074b25e7610
+09-22 05:45:01.359 12243 12243 F DEBUG   :     lr  000000767c8ea234  sp  00000074b25e75f0  pc  000000767c949a80  pst 0000000020001000
+09-22 05:45:01.359 12243 12243 F DEBUG   : 1 total frames
+09-22 05:45:01.359 12243 12243 F DEBUG   : backtrace:
+09-22 05:45:01.359 12243 12243 F DEBUG   :       #00 pc 0000000000008a80  /system/lib64/graphicbuffersource-aidl-ndk.so (BuildId: 32b05764b0f2e700338894e5ead0cf16)
+09-22 07:38:20.040 25395 25395 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:38:20.058 25397 25397 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:38:20.315 25395 25395 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90067, not key_process
+09-22 07:38:20.315 25395 25395 F DEBUG   : keyProcess: 0
+09-22 07:38:20.315 25395 25395 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:38:20.315 25395 25395 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:38:20.315 25395 25395 F DEBUG   : Revision: '0'
+09-22 07:38:20.315 25395 25395 F DEBUG   : ABI: 'arm64'
+09-22 07:38:20.315 25395 25395 F DEBUG   : Timestamp: 2026-09-22 07:38:20.046757499+0300
+09-22 07:38:20.315 25395 25395 F DEBUG   : Process uptime: 1s
+09-22 07:38:20.315 25395 25395 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:38:20.315 25395 25395 F DEBUG   : pid: 25395, tid: 25395, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:38:20.315 25395 25395 F DEBUG   : uid: 90067
+09-22 07:38:20.315 25395 25395 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:38:20.315 25395 25395 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:38:20.315 25395 25395 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:38:20.315 25395 25395 F DEBUG   :     x0  0000000000015fd3  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:38:20.315 25395 25395 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  000000000000009b  x7  0000000000000000
+09-22 07:38:20.315 25395 25395 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:38:20.315 25395 25395 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:38:20.315 25395 25395 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:38:20.315 25395 25395 F DEBUG   :     x20 000000759e419280  x21 0000000000015fd3  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:38:20.315 25395 25395 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:38:20.315 25395 25395 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:38:20.315 25395 25395 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:38:20.315 25395 25395 F DEBUG   : 31 total frames
+09-22 07:38:20.315 25395 25395 F DEBUG   : backtrace:
+09-22 07:38:20.315 25395 25395 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:38:20.315 25395 25395 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:38:20.315 25395 25395 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:38:20.315 25395 25395 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:38:20.315 25395 25395 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:38:20.315 25395 25395 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:38:20.315 25395 25395 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:38:20.316 25397 25397 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90068, not key_process
+09-22 07:38:20.316 25397 25397 F DEBUG   : keyProcess: 0
+09-22 07:38:20.316 25397 25397 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:38:20.316 25397 25397 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:38:20.316 25397 25397 F DEBUG   : Revision: '0'
+09-22 07:38:20.316 25397 25397 F DEBUG   : ABI: 'arm64'
+09-22 07:38:20.316 25397 25397 F DEBUG   : Timestamp: 2026-09-22 07:38:20.065777863+0300
+09-22 07:38:20.316 25397 25397 F DEBUG   : Process uptime: 1s
+09-22 07:38:20.316 25397 25397 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:38:20.316 25397 25397 F DEBUG   : pid: 25397, tid: 25397, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:38:20.316 25397 25397 F DEBUG   : uid: 90068
+09-22 07:38:20.316 25397 25397 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:38:20.316 25397 25397 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:38:20.316 25397 25397 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:38:20.316 25397 25397 F DEBUG   :     x0  0000000000015fd4  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:38:20.316 25397 25397 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  00000000000000b8  x7  0000000000000000
+09-22 07:38:20.316 25397 25397 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:38:20.316 25397 25397 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:38:20.316 25397 25397 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:38:20.316 25397 25397 F DEBUG   :     x20 000000759e419280  x21 0000000000015fd4  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:38:20.316 25397 25397 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:38:20.316 25397 25397 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:38:20.316 25397 25397 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:38:20.316 25397 25397 F DEBUG   : 31 total frames
+09-22 07:38:20.316 25397 25397 F DEBUG   : backtrace:
+09-22 07:38:20.316 25397 25397 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:38:20.316 25397 25397 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:38:20.316 25397 25397 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:38:20.316 25397 25397 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:38:20.316 25397 25397 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:38:20.316 25397 25397 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:38:20.316 25397 25397 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:50:42.379 11790 11790 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:50:42.773 11790 11790 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90069, not key_process
+09-22 07:50:42.773 11790 11790 F DEBUG   : keyProcess: 0
+09-22 07:50:42.773 11790 11790 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:50:42.773 11790 11790 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:50:42.773 11790 11790 F DEBUG   : Revision: '0'
+09-22 07:50:42.773 11790 11790 F DEBUG   : ABI: 'arm64'
+09-22 07:50:42.773 11790 11790 F DEBUG   : Timestamp: 2026-09-22 07:50:42.384999224+0300
+09-22 07:50:42.773 11790 11790 F DEBUG   : Process uptime: 1s
+09-22 07:50:42.773 11790 11790 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:50:42.773 11790 11790 F DEBUG   : pid: 11790, tid: 11790, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:50:42.773 11790 11790 F DEBUG   : uid: 90069
+09-22 07:50:42.773 11790 11790 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:50:42.773 11790 11790 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:50:42.773 11790 11790 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:50:42.773 11790 11790 F DEBUG   :     x0  0000000000015fd5  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:50:42.773 11790 11790 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  00000000000000d8  x7  0000000000000000
+09-22 07:50:42.773 11790 11790 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:50:42.773 11790 11790 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:50:42.773 11790 11790 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:50:42.773 11790 11790 F DEBUG   :     x20 000000759e419280  x21 0000000000015fd5  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:50:42.773 11790 11790 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:50:42.773 11790 11790 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:50:42.773 11790 11790 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:50:42.773 11790 11790 F DEBUG   : 31 total frames
+09-22 07:50:42.773 11790 11790 F DEBUG   : backtrace:
+09-22 07:50:42.773 11790 11790 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:50:42.773 11790 11790 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:50:42.773 11790 11790 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:50:42.773 11790 11790 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:50:42.773 11790 11790 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:50:42.773 11790 11790 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:50:42.773 11790 11790 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:51:17.316 12809 12809 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:51:17.498 12809 12809 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90070, not key_process
+09-22 07:51:17.498 12809 12809 F DEBUG   : keyProcess: 0
+09-22 07:51:17.498 12809 12809 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:51:17.498 12809 12809 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:51:17.498 12809 12809 F DEBUG   : Revision: '0'
+09-22 07:51:17.498 12809 12809 F DEBUG   : ABI: 'arm64'
+09-22 07:51:17.498 12809 12809 F DEBUG   : Timestamp: 2026-09-22 07:51:17.323896607+0300
+09-22 07:51:17.498 12809 12809 F DEBUG   : Process uptime: 1s
+09-22 07:51:17.498 12809 12809 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:51:17.498 12809 12809 F DEBUG   : pid: 12809, tid: 12809, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:51:17.498 12809 12809 F DEBUG   : uid: 90070
+09-22 07:51:17.498 12809 12809 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:51:17.498 12809 12809 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:51:17.498 12809 12809 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:51:17.498 12809 12809 F DEBUG   :     x0  0000000000015fd6  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:51:17.498 12809 12809 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  0000000000000025  x7  0000000000000000
+09-22 07:51:17.498 12809 12809 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:51:17.498 12809 12809 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:51:17.498 12809 12809 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:51:17.498 12809 12809 F DEBUG   :     x20 000000759e419280  x21 0000000000015fd6  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:51:17.498 12809 12809 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:51:17.498 12809 12809 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:51:17.498 12809 12809 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:51:17.498 12809 12809 F DEBUG   : 31 total frames
+09-22 07:51:17.498 12809 12809 F DEBUG   : backtrace:
+09-22 07:51:17.498 12809 12809 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:51:17.498 12809 12809 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:51:17.498 12809 12809 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:51:17.498 12809 12809 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:51:17.498 12809 12809 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:51:17.498 12809 12809 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:51:17.498 12809 12809 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:53:45.332 16329 16329 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:53:45.513 16329 16329 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90071, not key_process
+09-22 07:53:45.513 16329 16329 F DEBUG   : keyProcess: 0
+09-22 07:53:45.513 16329 16329 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:53:45.513 16329 16329 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:53:45.513 16329 16329 F DEBUG   : Revision: '0'
+09-22 07:53:45.513 16329 16329 F DEBUG   : ABI: 'arm64'
+09-22 07:53:45.513 16329 16329 F DEBUG   : Timestamp: 2026-09-22 07:53:45.337777488+0300
+09-22 07:53:45.513 16329 16329 F DEBUG   : Process uptime: 1s
+09-22 07:53:45.513 16329 16329 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:53:45.513 16329 16329 F DEBUG   : pid: 16329, tid: 16329, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:53:45.513 16329 16329 F DEBUG   : uid: 90071
+09-22 07:53:45.513 16329 16329 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:53:45.513 16329 16329 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:53:45.513 16329 16329 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:53:45.513 16329 16329 F DEBUG   :     x0  0000000000015fd7  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:53:45.513 16329 16329 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  0000000000000071  x7  0000000000000000
+09-22 07:53:45.513 16329 16329 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:53:45.513 16329 16329 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:53:45.513 16329 16329 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:53:45.513 16329 16329 F DEBUG   :     x20 000000759e419280  x21 0000000000015fd7  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:53:45.513 16329 16329 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:53:45.513 16329 16329 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:53:45.513 16329 16329 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:53:45.513 16329 16329 F DEBUG   : 31 total frames
+09-22 07:53:45.513 16329 16329 F DEBUG   : backtrace:
+09-22 07:53:45.513 16329 16329 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:53:45.513 16329 16329 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:53:45.513 16329 16329 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:53:45.513 16329 16329 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:53:45.513 16329 16329 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:53:45.513 16329 16329 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:53:45.513 16329 16329 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:54:03.370 16630 16630 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:54:03.422 16634 16634 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:54:03.545 16630 16630 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90072, not key_process
+09-22 07:54:03.545 16630 16630 F DEBUG   : keyProcess: 0
+09-22 07:54:03.545 16630 16630 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:54:03.545 16630 16630 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:54:03.545 16630 16630 F DEBUG   : Revision: '0'
+09-22 07:54:03.545 16630 16630 F DEBUG   : ABI: 'arm64'
+09-22 07:54:03.545 16630 16630 F DEBUG   : Timestamp: 2026-09-22 07:54:03.375330658+0300
+09-22 07:54:03.545 16630 16630 F DEBUG   : Process uptime: 1s
+09-22 07:54:03.545 16630 16630 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:54:03.545 16630 16630 F DEBUG   : pid: 16630, tid: 16630, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:54:03.545 16630 16630 F DEBUG   : uid: 90072
+09-22 07:54:03.545 16630 16630 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:54:03.545 16630 16630 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:54:03.545 16630 16630 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:54:03.545 16630 16630 F DEBUG   :     x0  0000000000015fd8  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:54:03.545 16630 16630 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  000000000000009c  x7  0000000000000000
+09-22 07:54:03.545 16630 16630 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:54:03.545 16630 16630 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:54:03.545 16630 16630 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:54:03.545 16630 16630 F DEBUG   :     x20 000000759e419280  x21 0000000000015fd8  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:54:03.545 16630 16630 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:54:03.545 16630 16630 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:54:03.545 16630 16630 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:54:03.545 16630 16630 F DEBUG   : 31 total frames
+09-22 07:54:03.545 16630 16630 F DEBUG   : backtrace:
+09-22 07:54:03.545 16630 16630 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:54:03.545 16630 16630 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:54:03.545 16630 16630 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:54:03.545 16630 16630 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:54:03.545 16630 16630 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:54:03.545 16630 16630 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:54:03.545 16630 16630 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:54:03.611 16634 16634 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90073, not key_process
+09-22 07:54:03.611 16634 16634 F DEBUG   : keyProcess: 0
+09-22 07:54:03.611 16634 16634 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:54:03.611 16634 16634 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:54:03.611 16634 16634 F DEBUG   : Revision: '0'
+09-22 07:54:03.611 16634 16634 F DEBUG   : ABI: 'arm64'
+09-22 07:54:03.611 16634 16634 F DEBUG   : Timestamp: 2026-09-22 07:54:03.427167533+0300
+09-22 07:54:03.611 16634 16634 F DEBUG   : Process uptime: 1s
+09-22 07:54:03.611 16634 16634 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:54:03.611 16634 16634 F DEBUG   : pid: 16634, tid: 16634, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:54:03.611 16634 16634 F DEBUG   : uid: 90073
+09-22 07:54:03.611 16634 16634 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:54:03.611 16634 16634 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:54:03.611 16634 16634 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:54:03.611 16634 16634 F DEBUG   :     x0  0000000000015fd9  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:54:03.611 16634 16634 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  000000000000007f  x7  0000000000000000
+09-22 07:54:03.611 16634 16634 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:54:03.611 16634 16634 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:54:03.611 16634 16634 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:54:03.611 16634 16634 F DEBUG   :     x20 000000759e419280  x21 0000000000015fd9  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:54:03.611 16634 16634 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:54:03.611 16634 16634 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:54:03.611 16634 16634 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:54:03.611 16634 16634 F DEBUG   : 31 total frames
+09-22 07:54:03.611 16634 16634 F DEBUG   : backtrace:
+09-22 07:54:03.611 16634 16634 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:54:03.611 16634 16634 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:54:03.611 16634 16634 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:54:03.611 16634 16634 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:54:03.611 16634 16634 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:54:03.611 16634 16634 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:54:03.611 16634 16634 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:54:49.516 17449 17449 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:54:49.675 17449 17449 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90074, not key_process
+09-22 07:54:49.675 17449 17449 F DEBUG   : keyProcess: 0
+09-22 07:54:49.675 17449 17449 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:54:49.675 17449 17449 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:54:49.675 17449 17449 F DEBUG   : Revision: '0'
+09-22 07:54:49.675 17449 17449 F DEBUG   : ABI: 'arm64'
+09-22 07:54:49.675 17449 17449 F DEBUG   : Timestamp: 2026-09-22 07:54:49.521050016+0300
+09-22 07:54:49.675 17449 17449 F DEBUG   : Process uptime: 1s
+09-22 07:54:49.675 17449 17449 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:54:49.675 17449 17449 F DEBUG   : pid: 17449, tid: 17449, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:54:49.675 17449 17449 F DEBUG   : uid: 90074
+09-22 07:54:49.675 17449 17449 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:54:49.675 17449 17449 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:54:49.675 17449 17449 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:54:49.675 17449 17449 F DEBUG   :     x0  0000000000015fda  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:54:49.675 17449 17449 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  0000000000000019  x7  0000000000000000
+09-22 07:54:49.675 17449 17449 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:54:49.675 17449 17449 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:54:49.675 17449 17449 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:54:49.675 17449 17449 F DEBUG   :     x20 000000759e419280  x21 0000000000015fda  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:54:49.675 17449 17449 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:54:49.675 17449 17449 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:54:49.675 17449 17449 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:54:49.675 17449 17449 F DEBUG   : 31 total frames
+09-22 07:54:49.675 17449 17449 F DEBUG   : backtrace:
+09-22 07:54:49.675 17449 17449 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:54:49.675 17449 17449 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:54:49.675 17449 17449 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:54:49.675 17449 17449 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:54:49.675 17449 17449 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:54:49.675 17449 17449 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:54:49.675 17449 17449 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:54:51.453 17804 17804 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:54:51.615 17804 17804 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90075, not key_process
+09-22 07:54:51.615 17804 17804 F DEBUG   : keyProcess: 0
+09-22 07:54:51.615 17804 17804 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:54:51.615 17804 17804 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:54:51.615 17804 17804 F DEBUG   : Revision: '0'
+09-22 07:54:51.615 17804 17804 F DEBUG   : ABI: 'arm64'
+09-22 07:54:51.615 17804 17804 F DEBUG   : Timestamp: 2026-09-22 07:54:51.458430744+0300
+09-22 07:54:51.615 17804 17804 F DEBUG   : Process uptime: 1s
+09-22 07:54:51.615 17804 17804 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:54:51.615 17804 17804 F DEBUG   : pid: 17804, tid: 17804, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:54:51.615 17804 17804 F DEBUG   : uid: 90075
+09-22 07:54:51.615 17804 17804 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:54:51.615 17804 17804 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:54:51.615 17804 17804 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:54:51.615 17804 17804 F DEBUG   :     x0  0000000000015fdb  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:54:51.615 17804 17804 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  000000000000001f  x7  0000000000000000
+09-22 07:54:51.615 17804 17804 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:54:51.615 17804 17804 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:54:51.615 17804 17804 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:54:51.615 17804 17804 F DEBUG   :     x20 000000759e419280  x21 0000000000015fdb  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:54:51.615 17804 17804 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:54:51.615 17804 17804 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:54:51.615 17804 17804 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:54:51.615 17804 17804 F DEBUG   : 31 total frames
+09-22 07:54:51.615 17804 17804 F DEBUG   : backtrace:
+09-22 07:54:51.615 17804 17804 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:54:51.615 17804 17804 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:54:51.615 17804 17804 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:54:51.615 17804 17804 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:54:51.615 17804 17804 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:54:51.615 17804 17804 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.615 17804 17804 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:54:51.616 17804 17804 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)
+09-22 07:55:05.794 18124 18124 F DEBUG   : *** engrave_tombstone_ucontext ***
+09-22 07:55:06.018 18124 18124 F DEBUG   : Process name is com.android.chrome_zygote, uid is 90076, not key_process
+09-22 07:55:06.018 18124 18124 F DEBUG   : keyProcess: 0
+09-22 07:55:06.018 18124 18124 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-22 07:55:06.018 18124 18124 F DEBUG   : Build fingerprint: 'OnePlus/CPH2653/OP5D55L1:16/BP2A.250605.015/V.R4T3.31c67c8-110000d-110000a:user/release-keys'
+09-22 07:55:06.018 18124 18124 F DEBUG   : Revision: '0'
+09-22 07:55:06.018 18124 18124 F DEBUG   : ABI: 'arm64'
+09-22 07:55:06.018 18124 18124 F DEBUG   : Timestamp: 2026-09-22 07:55:05.798582614+0300
+09-22 07:55:06.018 18124 18124 F DEBUG   : Process uptime: 1s
+09-22 07:55:06.018 18124 18124 F DEBUG   : Cmdline: com.android.chrome_zygote
+09-22 07:55:06.018 18124 18124 F DEBUG   : pid: 18124, tid: 18124, name: d.chrome_zygote  >>> com.android.chrome_zygote <<<
+09-22 07:55:06.018 18124 18124 F DEBUG   : uid: 90076
+09-22 07:55:06.018 18124 18124 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-22 07:55:06.018 18124 18124 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-22 07:55:06.018 18124 18124 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr --------
+09-22 07:55:06.018 18124 18124 F DEBUG   :     x0  0000000000015fdc  x1  0000000000000000  x2  000000759e419280  x3  00000075e6b17980
+09-22 07:55:06.018 18124 18124 F DEBUG   :     x4  00000000000000fc  x5  0000007feec6ea51  x6  0000000000000068  x7  0000000000000000
+09-22 07:55:06.018 18124 18124 F DEBUG   :     x8  0000000000000000  x9  000000759e419280  x10 000000769059c2a8  x11 0000000000000000
+09-22 07:55:06.018 18124 18124 F DEBUG   :     x12 0000000000000020  x13 0000000000000000  x14 0000000000000000  x15 000000767cc6acea
+09-22 07:55:06.018 18124 18124 F DEBUG   :     x16 00000076987a8ee8  x17 0000003053ac970c  x18 000000769f04c000  x19 b4000075e6afdee0
+09-22 07:55:06.018 18124 18124 F DEBUG   :     x20 000000759e419280  x21 0000000000015fdc  x22 000000769ff01398  x23 0000007feec76eb0
+09-22 07:55:06.018 18124 18124 F DEBUG   :     x24 00000075e6b17980  x25 0000000041012800  x26 0000000041212800  x27 0000007feec72e30
+09-22 07:55:06.018 18124 18124 F DEBUG   :     x28 0000000000000000  x29 0000007feec77ef0
+09-22 07:55:06.018 18124 18124 F DEBUG   :     lr  00000076987330bc  sp  0000007feec6eb40  pc  0000003053ac970c  pst 0000000000001400
+09-22 07:55:06.018 18124 18124 F DEBUG   : 31 total frames
+09-22 07:55:06.018 18124 18124 F DEBUG   : backtrace:
+09-22 07:55:06.018 18124 18124 F DEBUG   :   NOTE: Function names and BuildId information is missing for some frames due
+09-22 07:55:06.018 18124 18124 F DEBUG   :   NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+09-22 07:55:06.018 18124 18124 F DEBUG   :   NOTE: found under the lib/ directory are readable.
+09-22 07:55:06.018 18124 18124 F DEBUG   :   NOTE: On this device, run setenforce 0 to make the libraries readable.
+09-22 07:55:06.018 18124 18124 F DEBUG   :   NOTE: Unreadable libraries:
+09-22 07:55:06.018 18124 18124 F DEBUG   :   NOTE:   /system/bin/app_process64
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #00 pc 0000003053ac970c  <unknown>
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #01 pc 00000000002820b8  /system/lib64/libandroid_runtime.so ((anonymous namespace)::SpecializeCommon(_JNIEnv*, unsigned int, unsigned int, _jintArray*, int, _jobjectArray*, long, long, long, int, _jstring*, _jstring*, bool, bool, _jstring*, _jstring*, bool, _jobjectArray*, _jobjectArray*, bool, bool, bool)+27504) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #02 pc 000000000027a040  /system/lib64/libandroid_runtime.so (android::com_android_internal_os_Zygote_nativeSpecializeAppProcess(_JNIEnv*, _jclass*, int, int, _jintArray*, int, _jobjectArray*, int, _jstring*, _jstring*, unsigned char, _jstring*, _jstring*, unsigned char, _jobjectArray*, _jobjectArray*, unsigned char, unsigned char, unsigned char)+320) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #03 pc 0000000001280e3c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+316)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #04 pc 0000000000f2bfac  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.specializeAppProcess+348)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #05 pc 0000000000f2aafc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.Zygote.childMain+3244)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #06 pc 0000000000f18df4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteConnection.processCommand+1412)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #07 pc 0000000000f1af10  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteServer.runSelectLoop+2512)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #08 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #09 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #10 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #11 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #12 pc 00000000003aadb8  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #13 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #14 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #15 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #16 pc 000000000072b104  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #17 pc 00000000003a19c2  /system/framework/framework.jar (offset 0x238b000)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #19 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #20 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #21 pc 000000000125b5c4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #22 pc 0000000000f27fc4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+116)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #23 pc 0000000000f32904  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #24 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #25 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #26 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #27 pc 000000000010fdcc  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #28 pc 000000000013b7e0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 889771e39a7cabd1021a72c6fe9c6b8a)
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #29 pc 0000000000004718  /system/bin/app_process64
+09-22 07:55:06.018 18124 18124 F DEBUG   :       #30 pc 0000000000083d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: ea7b19bd582e7030a81f9d21fbcb1833)

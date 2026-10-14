@@ -104,6 +104,10 @@ export function formatOverviewRange(dateKeys) {
     .formatToParts(date)
     .find((part) => part.type === type)?.value ?? "";
 
+  if (dateKeys.length === 1) {
+    return `${start.getDate()} ${getPart(start, "month")} ${start.getFullYear()}`;
+  }
+
   if (start.getFullYear() !== end.getFullYear()) {
     return `${russianFullDateFormatter.format(start)} — ${russianFullDateFormatter.format(end)}`;
   }

@@ -10,11 +10,13 @@ Live app: **https://usersv4.github.io/otmetka-pwa/**
 
 - Keeps an editable, reorderable roster on the device.
 - Shows `Присутствует` in orange, `Заболел` in green, and both `Забухал` and `Нету` in red.
+- Includes `Пол смены` with a diagonal present-orange/red fill in the status picker and shared PNG. All five status buttons share one compact row.
 - Makes every deliberate choice that person's default for the next new day.
 - Initializes today from those defaults; days never opened remain unknown (`—`).
-- Stores history indefinitely while the current UI and PNG show the latest seven days.
+- Stores history indefinitely and shows the latest seven days in the app. Shared PNGs trim empty days from both ends and retain empty days between filled days.
 - Pre-renders the overview so one tap can immediately call `navigator.share({ files })`.
-- Archives removed people without destroying their recent history.
+- Excludes removed people from shared overview rows and totals; keeps their history for restoration.
+- Clears a selected past day or replaces its marks with current defaults, with undo. Cleared days stay empty after reopening; any retained empty columns show dashes in the PNG.
 - Exports and restores a versioned JSON backup.
 - Uses no API, CDN, remote font, analytics, or runtime network dependency.
 

@@ -21,6 +21,9 @@
   --absent: #d94d48;
   --absent-soft: #fdebea;
   --absent-deep: #96312e;
+  --half: linear-gradient(to bottom right, var(--present) 50%, var(--absent) 50%);
+  --half-soft: linear-gradient(to bottom right, var(--present-soft) 50%, var(--absent-soft) 50%);
+  --half-deep: var(--present-deep);
   --accent: #6c4024;
   --shadow-sm: 0 1px 2px rgb(75 45 25 / 5%), 0 7px 24px rgb(75 45 25 / 5%);
   --shadow-lg: 0 20px 70px rgb(57 34 20 / 20%);
@@ -412,6 +415,7 @@ h1 {
 
 .daily-summary {
   display: flex;
+  flex-wrap: wrap;
   min-height: 29px;
   align-items: center;
   gap: 7px;
@@ -450,11 +454,14 @@ h1 {
 .summary-chip-drunk::before { background: var(--drunk); }
 .summary-chip-absent { color: var(--absent-deep); background: var(--absent-soft); }
 .summary-chip-absent::before { background: var(--absent); }
+.summary-chip-half { color: var(--half-deep); background: var(--half-soft); }
+.summary-chip-half::before { background: var(--half); }
 .summary-chip-missing { color: var(--ink-soft); background: #eee8e2; }
 .summary-chip-missing::before { background: var(--ink-faint); }
 
 .quick-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-top: 11px;
 }
@@ -528,6 +535,7 @@ h1 {
 .person-card[data-status="sick"]::before { background: var(--sick); }
 .person-card[data-status="drunk"]::before { background: var(--drunk); }
 .person-card[data-status="absent"]::before { background: var(--absent); }
+.person-card[data-status="half"]::before { background: var(--half); }
 
 .person-name-row {
   display: flex;
@@ -558,23 +566,26 @@ h1 {
 
 .status-options {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 7px;
 }
 
 .status-button {
   display: flex;
+  flex-direction: column;
   min-width: 0;
   min-height: 47px;
   padding: 5px 4px;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 3px;
   color: var(--ink-soft);
   border: 1px solid var(--line);
   border-radius: 13px;
   background: var(--surface-muted);
   font-size: 12px;
+  line-height: 1.2;
+  white-space: nowrap;
   font-weight: 760;
   cursor: pointer;
   transition: transform 90ms ease, color 120ms ease, background 120ms ease, border-color 120ms ease;
@@ -642,6 +653,19 @@ h1 {
   color: #fff;
   border-color: var(--absent);
   background: var(--absent);
+}
+
+.status-button[data-status="half"] .status-button-mark {
+  color: #2b1b12;
+  border-color: var(--present);
+  background: var(--half);
+  font-size: 13px;
+}
+
+.status-button[data-status="half"][aria-pressed="true"] {
+  color: var(--half-deep);
+  border-color: #efbc82;
+  background: var(--half-soft);
 }
 
 .person-card.just-changed {
@@ -916,6 +940,39 @@ dialog::backdrop {
   max-height: calc(92dvh - 84px - var(--safe-bottom));
   padding: 15px calc(18px + var(--safe-right)) calc(24px + var(--safe-bottom)) calc(18px + var(--safe-left));
   overflow-y: auto;
+}
+
+.day-actions {
+  display: grid;
+  gap: 12px;
+}
+
+.day-actions .day-action-button {
+  padding: 14px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  text-align: left;
+}
+
+.day-action-button strong {
+  font-size: 15px;
+}
+
+.day-action-button span {
+  color: var(--ink-soft);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.day-action-clear strong {
+  color: var(--absent-deep);
+}
+
+.day-action-button:disabled {
+  opacity: 0.45;
+  cursor: default;
 }
 
 .add-people-card {
@@ -1312,7 +1369,7 @@ dialog::backdrop {
   }
 
   .status-button {
-    gap: 4px;
+    gap: 3px;
     font-size: 11px;
   }
 
@@ -1327,8 +1384,7 @@ dialog::backdrop {
   .brand-icon { width: 42px; height: 42px; }
   .header-button > span:not(.people-count) { display: none; }
   .person-card { padding: 11px 9px; }
-  .status-button { font-size: 10px; }
-  .status-button-mark { display: none; }
+  .status-button { padding-inline: 2px; font-size: 10px; }
   .quick-button { padding: 0 9px; font-size: 12px; }
 }
 

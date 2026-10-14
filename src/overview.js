@@ -35,6 +35,24 @@ function fillRoundedRect(context, x, y, width, height, radius, fillStyle) {
   context.fill();
 }
 
+function fillStatusRect(context, x, y, width, height, radius, meta, soft = false) {
+  const first = soft ? meta.softColor : meta.color;
+  const second = soft ? meta.secondarySoftColor : meta.secondaryColor;
+  fillRoundedRect(context, x, y, width, height, radius, first);
+  if (!second) return;
+  context.save();
+  roundedRectPath(context, x, y, width, height, radius);
+  context.clip();
+  context.beginPath();
+  context.moveTo(x + width, y);
+  context.lineTo(x + width, y + height);
+  context.lineTo(x, y + height);
+  context.closePath();
+  context.fillStyle = second;
+  context.fill();
+  context.restore();
+}
+
 function truncateText(context, value, maxWidth) {
   const text = String(value);
   if (context.measureText(text).width <= maxWidth) return text;
@@ -65,9 +83,9 @@ function drawStatusCell(context, status, centerX, centerY) {
   }
 
   const meta = STATUS_META[status];
-  fillRoundedRect(context, centerX - 40, centerY - 22, 80, 44, 15, meta.softColor);
-  fillRoundedRect(context, centerX - 16, centerY - 16, 32, 32, 11, meta.color);
-  drawCenteredText(context, meta.mark, centerX, centerY + 1, { size: 17, weight: 900, color: "#FFFFFF" });
+  fillStatusRect(context, centerX - 40, centerY - 22, 80, 44, 15, meta, true);
+  fillStatusRect(context, centerX - 16, centerY - 16, 32, 32, 11, meta);
+  drawCenteredText(context, meta.mark, centerX, centerY + 1, { size: 17, weight: 900, color: meta.markColor ?? "#FFFFFF" });
 }
 
 function drawHeader(context, dateKeys, pageNumber, pageCount) {
@@ -183,12 +201,19 @@ function drawTotals(context, state, dateKeys, allPeople, peopleCount, tableWidth
   dateKeys.forEach((dateKey, index) => {
     const counts = statusDistribution(state, dateKey, allPeople);
     const centerX = SIDE_MARGIN + NAME_COLUMN_WIDTH + dateColumnWidth * index + dateColumnWidth / 2;
-    drawCenteredText(context, `${counts.present}/${allPeople.length}`, centerX, y + 35, {
+    drawCenteredText(context, `${counts.present}/${allPeople.length}`, centerX, y + (counts.half ? 27 : 35), {
       size: 23,
       weight: 850,
       color: STATUS_META.present.darkColor
     });
-    drawCenteredText(context, `Б ${counts.sick} · З ${counts.drunk} · Н ${counts.absent}`, centerX, y + 67, {
+    if (counts.half) {
+      drawCenteredText(context, `½ ${counts.half}`, centerX, y + 52, {
+        size: 17,
+        weight: 800,
+        color: STATUS_META.half.darkColor
+      });
+    }
+    drawCenteredText(context, `Б ${counts.sick} · З ${counts.drunk} · Н ${counts.absent}`, centerX, y + (counts.half ? 77 : 67), {
       size: 12,
       weight: 720,
       color: "#75695F"
@@ -202,8 +227,8 @@ function drawFooter(context, footerTop, pageNumber, pageCount) {
 
   for (const status of STATUS_KEYS) {
     const meta = STATUS_META[status];
-    fillRoundedRect(context, x, legendY - 16, 32, 32, 10, meta.color);
-    drawCenteredText(context, meta.mark, x + 16, legendY + 1, { size: 16, weight: 900, color: "#FFFFFF" });
+    fillStatusRect(context, x, legendY - 16, 32, 32, 10, meta);
+    drawCenteredText(context, meta.mark, x + 16, legendY + 1, { size: 16, weight: 900, color: meta.markColor ?? "#FFFFFF" });
     context.fillStyle = "#514840";
     context.font = `650 18px ${FONT_FAMILY}`;
     context.textAlign = "left";
@@ -243,7 +268,21 @@ export function paginatePeople(people, pageSize = OVERVIEW_PAGE_SIZE) {
   return pages;
 }
 
+export function getOverviewDates(state, dateKeys) {
+  const people = getOverviewPeople(state);
+  const hasMarks = (dateKey) => people.some((person) =>
+    STATUS_KEYS.includes(getEntry(state, dateKey, person.id)?.status)
+  );
+  const first = dateKeys.findIndex(hasMarks);
+  if (first === -1) return [];
+  let last = dateKeys.length - 1;
+  while (!hasMarks(dateKeys[last])) last -= 1;
+  return dateKeys.slice(first, last + 1);
+}
+
 export async function generateOverviewFiles(state, dateKeys) {
+  dateKeys = getOverviewDates(state, dateKeys);
+  if (!dateKeys.length) return [];
   const allPeople = getOverviewPeople(state, dateKeys);
   const pages = paginatePeople(allPeople);
   const files = [];

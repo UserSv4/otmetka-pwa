@@ -1,0 +1,23 @@
+{
+  "shareReady": true,
+  "active": 15,
+  "overviewRows": 15,
+  "removedInOverview": 0,
+  "loadedFunction": "function getOverviewPeople(state) {\n  return getActivePeople(state);\n}",
+  "body": "К списку\n\nПОСЕЩАЕМОСТЬ\n\nОтметка\nЛюди\n15\nГотово офлайн · интернет больше не нужен\n\nСЕГОДНЯ\n\n21 сентября\nВТ\n15\nСР\n16\nЧТ\n17\nПТ\n18\nСБ\n19\nВС\n20\nСЕГ\n21\nЗдесь 10\nБолеют 0\nЗабухали 0\nНету ",
+  "dataUnchanged": true,
+  "cacheMatchesFix": true,
+  "sharedPng": {
+    "file": "shared-overview-1.png",
+    "width": 1400,
+    "height": 1496,
+    "rows": 15,
+    "removedRows": 0,
+    "actualShareButtonCaptured": true
+  },
+  "tests": {
+    "passed": 8,
+    "failed": 0,
+    "command": "node --test tests/model.test.mjs tests/overview.test.mjs"
+  }
+}

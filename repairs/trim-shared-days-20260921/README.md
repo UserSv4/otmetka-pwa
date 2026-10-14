@@ -1,0 +1,9 @@
+# Trim shared overview dates — 2026-09-21
+
+Installed directly into the existing Chrome PWA cache. Updated only src/overview.js, src/dates.js, and src/app.js. Earlier removed-person and past-day reset changes remain. No remote/public repository changes. Existing installed cache remains shell-v2; local source cache version is shell-v5 for a future authorized release.
+
+Within the existing seven-day window, PNGs now retain only the continuous range between the first and last date containing a valid mark for any active person. Empty middle days remain as dash columns. Removed-person records cannot keep an edge column visible. Sick, absent, and drunk marks all count as filled. All pages use the same range; printed date headings and filenames use the trimmed range. One remaining day prints a single date. With no marks at all, no PNG is generated and the share button says Нет отметок за эти дни. Attendance data and the in-app date strip are unchanged.
+
+Deployment was handed off before optional testing. Syntax checks and 11 focused date/overview tests passed. Browser checks used the installed modules and in-memory synthetic states without saving them. Verified both trimmed ends, three empty middle days, a single date, an all-empty range, and matching dates across a 51-person/two-page image. The actual share button file was intercepted locally without sending anything. Its remaining range was 2026-09-21. Saved JSON was unchanged during the checks.
+
+Private original cache assets/data are in installed-before.json; exact original/replacement asset bodies are in installed-changes.json. browser-check.js is an optional DevTools evaluation check, not part of deployment. It restores temporary canvas/share hooks and does not persist sample data. PNGs and browser-verification.json retain the verification results.

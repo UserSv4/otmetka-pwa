@@ -1,0 +1,8 @@
+{
+  "buttonCount": 15,
+  "label": "½\nПол смены",
+  "badgeBackground": "linear-gradient(to right bottom, rgb(244, 197, 66) 50%, rgb(217, 77, 72) 50%)",
+  "offline": "Готово офлайн · интернет больше не нужен",
+  "shareEnabled": true,
+  "dataUnchanged": true
+}

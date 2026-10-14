@@ -1,0 +1,7 @@
+Modules: 0
+
+Found Services: 238
+
+Injected Processes: 0
+
+Dead Processes (Most Recent 10): 0
